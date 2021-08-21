@@ -1,0 +1,70 @@
+li {
+  margin-left: 20px;
+}
+
+li:hover {
+  background-color: rgb(66, 215, 235);
+  border-radius: 10px;
+}
+
+.container-fluid {
+  padding: 25px;
+  background-color: rgb(55, 39, 58);
+}
+#btn1 {
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#desc {
+  margin-top: 15px;
+  color: rgb(4, 134, 43);
+}
+
+#para {
+  margin-top: 5px;
+  color: rgb(4, 134, 43);
+}
+
+#image {
+  margin: 20px 80px;
+  height: 270px;
+  width: 500px;
+  border-radius: 100px;
+}
+
+#join {
+  color: rgb(4, 134, 43);
+  margin-top: 30px;
+}
+
+.btn-gradient {
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  transition: all 0.4s ease-in-out;
+  outline: none;
+  width: 250px;
+
+  background-image: linear-gradient(
+    to right,
+    #25aae1,
+    #40e495,
+    #30dd8a,
+    #2bb673
+  );
+  box-shadow: 0 4px 15px 0 rgba(79, 228, 223, 0.75);
+}
+
+.btn-gradient:hover {
+  background-position: 100% 0;
+  transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,43 @@
+#form {
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(238, 244, 247);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+#page {
+  background: linear-gradient(-45deg, #ee52e6, #e73c7e, #e3e633, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#btn {
+  margin: auto;
+  background-image: linear-gradient(
+    to right,
+    rgb(221, 65, 208),
+    rgb(73, 181, 231)
+  );
+}
+
+#avatar {
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 50px;
+}
